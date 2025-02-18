@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>digikala</title>
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundel.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./public/CSS/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazir:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdn.fontcdn.ir/font/Vazir/Vazir.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./public/CSS/stoy.css" />
+    <link rel="stylesheet" href="./public/CSS/slide.css" />
+    <link rel="stylesheet" href="./public/CSS/Amazing.css" />
+    <link rel="stylesheet" href="./public/CSS/brands.css" />
+    <link rel="stylesheet" href="./public/CSS/hard.css" />
+    <link rel="stylesheet" href="./public/CSS/Basket.css" />
+    <link rel="stylesheet" href="./public/CSS/media.css" />
+  </head>
+  <body>
+    <!--top header-->
+    <div
+      class="desktop:w-[100%] mobile:w-[100%] desktop:h-[60px] mobile:h-[30px]"
+    >
+      <a href="#" class="block">
+        <img
+          src="./public/images/image-1.gif"
+          class="desktop:w-[100%] mobile:w-[100%] desktop:h-full mobile:h-full desktop:object-cover mobile:object-cover"
+          alt="tapsi"
+        />
+      </a>
+    </div>
+    <!--top header-->
+    <!--header-->
+    <!--search-->
+    <div class="desktop:w-[100%] desktop:pt-5 desktop:pb-2">
+      <div
+        class="desktop:w-[100%] desktop:px-5 desktop:bg-white desktop:flex desktop:items-center desktop:justify-between"
+      >
+        <div class="desktop:w-full desktop:flex desktop:items-center">
+          <img
+            src="./public/images/full-horizontal.svg"
+            alt="brand logo"
+            class="desktop:w-[165px] desktop:h-[20px] mobile:w-[55px] mobile:h[10px]"
+          />
+          <div
+            class="desktop:w-[1000px] desktop:bg-gray-100 desktop:rounded-lg desktop:mx-4 desktop:font-iran-light desktop:py-1 desktop:px-2 desktop:flex-grow desktop:flex desktop:relative mobile:w-full mobile:bg-gray-100 mobile:rounded-lg mobile:mx-4 mobile:font-iran-light mobile:py-1 mobile:px-2 mobile:flex-grow mobile:flex mobile:relative"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search desktop:absolute desktop:top-[14px] desktop:right-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+              />
+            </svg>
+            <div
+              class="search w-1/2 desktop:flex desktop:flex-1 desktop:items-center desktop:grow"
+            >
+              <input
+                type="search"
+                placeholder="جستجو"
+                class="desktop:w-1/2 desktop:relative desktop:px-11 desktop:py-1 desktop:rounded-lg desktop:outline-none desktop:bg-transparent desktop:placeholder:text-gray-500 desktop:text-sm mobile:w-full mobile:relative mobile:px-11 mobile:py-1 mobile:rounded-lg mobile:outline-none mobile:bg-transparent mobile:placeholder:text-gray-500 mobile:text-sm"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="desktop:w-[181px] desktop:flex justify-end desktop:items-center desktop:py-1 desktop:px-3 desktop:rounded-lg desktop:text-sm desktop:text-[sans] mobile:hidden"
+        >
+          <div
+            class="desktop:border sm:hidden border-gray-300 flex justify-center items-center gap-1 p-[10px] rounded-md cursor-pointer font-black text-[12px]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-box-arrow-in-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0z"
+              />
+              <path
+                fill-rule="evenodd"
+                d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708z"
+              />
+            </svg>
+            <span class="sm:hidden">ورود</span>
+            <span class="sm:hidden">|</span>
+            <span class="sm:hidden">ثبت نام</span>
+          </div>
+          <span class="mx-4 text-lg text-gray-300">|</span>
+          <svg
+            style="transform: scaleX(-1)"
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-cart2 cursor-pointer font-extrabold"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!--end search-->
+    <!--menu-->
+
+    <div id="root">
+      <div
+        class="menu desktop:flex desktop:justify-between desktop:items-center desktop:bg-white desktop:py-2 desktop:px-5 desktop:shadow-md"
+      >
+        <nav
+          class="desktop:w-full desktop:max-w-screen-xl desktop:h-[inherit] desktop:flex desktop:items-center desktop:space-x-4 desktop:overflow-x-auto mobile:hidden"
+        >
+          <!-- بخش منو -->
+          <li
+            class="desktop:flex desktop:items-center desktop:font-bold desktop:mx-2 desktop:text-sm desktop:group transition-all duration-300 ease-linear desktop:relative"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              fill="currentColor"
+              class="bi bi-list text-gray-400"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+            <a
+              href="#"
+              class="desktop:cursor-pointer desktop:mx-1 desktop:text-gray-700 desktop:group transition-all duration-200 ease-linear hover:text-red-600"
+              >دسته‌بندی کالاها</a
+            >
+            <div
+              class="desktop:absolute desktop:right-0 desktop:top-full desktop:w-[1300px] desktop:h-auto desktop:bg-white desktop:shadow-lg desktop:hidden desktop:group-hover:block desktop:z-50"
+            >
+              <div
+                class="desktop:p-5 desktop:gap-4 desktop:bg-gray-100 desktop:w-[15%] desktop:px-0 desktop:content-center"
+              >
+                <div>
+                  <ul class="desktop:text-sm desktop:text-gray-600">
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="desktop:font-[sans] desktop:text-12px">
+                        موبایل</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >کالای دیجیتال</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >کتاب لوازم تحریر و هنر</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >خانه آشپزخانه</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >لوازم خانگی برقی</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px">مد وپوشاک</a>
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px">طلا و نقره</a>
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >آرایشی بهداشتی</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px"
+                        >تجهیزات پزشکی و سلامت</a
+                      >
+                    </li>
+                    <li
+                      class="desktop:py-2 desktop:hover:text-red-600 desktop:hover:bg-white desktop:flex desktop:items-center desktop:justify-center"
+                    >
+                      <a href="#" class="font-[sans] text-12px">ورزش و سفر</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <span class="desktop:mx-2 desktop:text-gray-300">|</span>
+          <!-- جداکننده -->
+          <span class="desktop:mx-2 desktop:text-gray-300">|</span>
+        </nav>
+        <!--end menu-->
+        <!-- بخش ثبت شهر -->
+        <div
+          class="desktop:flex desktop:items-center desktop:gap-2 desktop:cursor-pointer desktop:text-sm desktop:bg-white desktop:border desktop:border-gray-300 desktop:rounded-full desktop:px-3 desktop:py-1 desktop:hover:bg-gray-100 desktop:transition desktop:whitespace-nowrap mobile:flex mobile:pt-2 mobile:items-center mobile:gap-2 mobile:cursor-pointer mobile:text-sm mobile:justify-start mobile:hover:bg-gray-100"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            fill="currentColor"
+            class="bi bi-geo-alt text-gray-600"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a5 5 0 0 1 5 5c0 4.5-5 11-5 11S3 9.5 3 5a5 5 0 0 1 5-5zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"
+            />
+          </svg>
+          <span class="font-medium text-[13px] text-gray-700 leading-none"
+            >لطفاً شهر خود را انتخاب کنید</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <!--end menu-->
+    <!-- end header-->
+    <!--story-->
+    <div class="story w-full px-4">
+      <div class="story_slide1 max-w-7xl mx-auto">
+        <swiper-container
+          class="mySwiper1"
+          pagination="true"
+          navigation="true"
+          pagination-clickable="true"
+          space-between="10"
+          slides-per-view="12.5"
+        >
+          <swiper-slide>
+            <img
+              src="image1.jpg"
+              alt="story 1"
+              class="w-full h-auto rounded-lg"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="image2.jpg"
+              alt="story 2"
+              class="w-full h-auto rounded-lg"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="image3.jpg"
+              alt="story 3"
+              class="w-full h-auto rounded-lg"
+            />
+          </swiper-slide>
+          <!-- اسلایدهای بیشتر -->
+        </swiper-container>
+      </div>
+    </div>
+
+    <!--end story-->
+    <!--slide-->
+    <div class="slide">
+      <swiper-container
+        class="Swiper-slide"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="0"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+      >
+      </swiper-container>
+    </div>
+    <!--end slide-->
+    <!--container-->
+    <div class="containe mx-auto">
+      <div
+        class="w-[100%] bg-neutral-000 desktop:h-[176px] mobile:h-[134px] flex justify-center items-center mobile:rounded-full"
+      >
+        <div
+          class="container w-[inherit] flex justify-end items-center desktop:gap-x-6 mobile:gap-x-6"
+        >
+          <div
+            class="w-[120px] h-[100px] flex flex-col items-center text-center"
+          >
+            <div
+              class="desktop:w-[55px] desktop:h-[55px] mobile:w-[25px] mobile:h-[25px] desktop:rounded-full mobile:rounded-full bg-gray-200 flex items-center justify-center font-bold text-gray-400"
+            >
+              ...
+            </div>
+            <a href="#" class="text-gray-700 font-[sans] text-[12px] font-bold"
+              >بیشتر</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end container-->
+    <!--Amazing-->
+    <div class="Amazing mb-4">
+      <swiper-container
+        class="Swiper-amazing"
+        pagination="true"
+        pagination-clickable="true"
+        space-between="30"
+        slides-per-view="7"
+      >
+      </swiper-container>
+    </div>
+    <!--end Amazing-->
+    <!--best-->
+    <div class="best w-[100%] flex flex-col items-center gap-2 mt-2[10px]">
+      <!-- بخش اول: تصاویر بنر -->
+      <div
+        class="best1 desktop:w-[100%] desktop:h-[225px] desktop:flex desktop:justify-center desktop:gap-4 mobile:w-[100%] mobile:h-[500px] mobile:grid mobile:grid-cols-2 mobile:gap-4 mobile:justify-center mobile:items-center mobile:mx-auto"
+      ></div>
+      <div
+        class="best2 w-[100%] h-[150px] flex justify-center items-center mt-[1px] mobile:hidden"
+      >
+        <div
+          class="bg-gray-200 h-[120px] w-[1336px] rounded-lg shadow-md flex items-center px-4 justify-between"
+        >
+          <!-- آیکون اصلی -->
+          <img
+            src="./public/images/best-2-1.webp"
+            alt="best-2-1"
+            class="w-[66px] h-[62px] object-contain"
+          />
+
+          <div class="supermarket absolute -translate-x-1/2">
+            <img src="./public/images/best-2-2.svg" alt="best-2-2" />
+          </div>
+
+          <!-- دکمه سبز + لیست محصولات (کنار هم در یک خط) -->
+          <div class="flex items-center gap-3">
+            <!-- دکمه سبز -->
+
+            <!-- لیست محصولات -->
+            <div class="Better flex"></div>
+            <div class="more-items"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="best3 desktop:w-[100%] desktop:h-[225px] desktop:flex desktop:justify-center desktop:gap-4 mobile:w-[100%] mobile:h-[500px] mobile:grid mobile:grid-cols-2 mobile:gap-4 mobile:justify-center mobile:items-center mobile:mx-auto"
+      ></div>
+    </div>
+
+    <!--end best-->
+    <!--shop-->
+    <div class="shop w-full">
+      <h2 class="text-center font-[sans] text-[25px] mb-4">
+        خرید بر اساس دسته‌بندی
+      </h2>
+      <div
+        class="shopping desktop:grid desktop:grid-cols-8 desktop:grid-rows-2 gap-4 w-full max-w-[1172px] mx-auto mobile:grid mobile:grid-cols-6 mobile:grid-rows-3 mobile:mb-4"
+      ></div>
+    </div>
+    <!--end shop-->
+    <!--picture-->
+    <div
+      class="picture desktop:mt-10 desktop:w-full desktop:h-[264px] desktop:flex desktop:justify-center desktop:items-center desktop:gap-4 mobile:w-[999px] mobile:h-[550px] mobile:block mobile:mx-auto mobile:space-y-[4px]"
+    >
+      <div
+        class="center flex justify-center items-center w-[1336px] desktop:h-[264px] mobile:h-[550px] gap-4 mobile:block"
+      ></div>
+    </div>
+    <!--end picture-->
+    <!--brands-->
+    <div
+      class="brands border border-gray-200 rounded-lg shadow-sm w-full max-w-[1336px] mx-auto mt-4 p-4"
+    >
+      <div class="w-full flex justify-center items-center mt-2 gap-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-star text-[#F9BC00] font-bold"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"
+          />
+        </svg>
+        <h4 class="font-bold text-lg sm:text-xl">محبوب‌ترین برندها</h4>
+      </div>
+
+      <div class="brands w-full flex justify-center items-center">
+        <div class="beand w-full">
+          <swiper-container
+            class="Swiper-brands"
+            pagination="true"
+            pagination-clickable="true"
+            space-between="10"
+            slides-per-view="2"
+            breakpoints='{
+              "640": {"slidesPerView": 3, "spaceBetween": 15},
+              "768": {"slidesPerView": 4, "spaceBetween": 20},
+              "1024": {"slidesPerView": 6, "spaceBetween": 30}
+            }'
+          >
+            <swiper-slide
+              ><img src="./images/brand1.png" alt="brand1"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand2.png" alt="brand2"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand3.png" alt="brand3"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand4.png" alt="brand4"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand5.png" alt="brand5"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand6.png" alt="brand6"
+            /></swiper-slide>
+            <swiper-slide
+              ><img src="./images/brand7.png" alt="brand7"
+            /></swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+
+    <!--end brands-->
+    <!--picture2-->
+    <div
+      class="picture2 desktop:mt-10 desktop:w-full desktop:h-[264px] desktop:flex desktop:justify-center desktop:items-center desktop:gap-4 mobile:w-[999px] mobile:h-[550px] mobile:block mobile:mx-auto mobile:space-y-[4px]"
+    >
+      <div
+        class="center flex justify-center items-center w-[1336px] h-[264px] mobile:h-[550px] gap-4 mobile:block"
+      ></div>
+    </div>
+    <!--end picture2-->
+    <!--basket-->
+    <div class="Basket max-sm:hidden">
+      <div
+        class="basket w-[125px] h-[55px] bg-[#029A49] fixed rounded-full left-[10px] bottom-[10px] z-40 flex justify-center items-center"
+      >
+        <h3
+          class="text-[14px] text-white text-center font-bold cursor-pointer px-2 py-2.5"
+        >
+          سوپر مارکت
+        </h3>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          class="bi bi-basket-fill text-white font-normal"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0z"
+          />
+        </svg>
+      </div>
+      <div class="addbasket w-[270px] rounded-[25px]"></div>
+    </div>
+    <!--end basket-->
+    <!--products-->
+    <div
+      class="products w-full bg-white flex flex-col items-center py-8 relative mb-0 mobile:mb-[40px]"
+    >
+      <div class="w-full mx-auto border-t-2 border-gray-200 mb-6"></div>
+      <div class="flex justify-between items-center w-full max-w-6xl mb-6 px-4">
+        <img
+          class="w-[250px] h-[40px] mobile:hidden"
+          src="./public/images/full-horizontal.svg"
+          alt="digikala"
+        />
+      </div>
+
+      <div
+        class="product grid grid-cols-5 gap-6 w-full max-w-6xl text-center px-4"
+      ></div>
+
+      <h3
+        class="mt-8 text-xl font-semibold text-gray-800 text-center max-w-4xl px-4"
+      >
+        فروشگاه اینترنتی دیجی‌کالا، بررسی، انتخاب و خرید آنلاین
+      </h3>
+
+      <p
+        class="mt-4 text-gray-600 text-base text-center max-w-5xl leading-relaxed px-4"
+      >
+        یک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع،
+        باکیفیت و دارای قیمت مناسب را در مدت زمان کوتاه به دست مشتریان خود
+        برساند و ضمانت بازگشت کالا هم داشته باشد...
+      </p>
+    </div>
+    <!--end products-->
+    <div class="digi desktop:w-[100%] desktop:mt-5 desktop:block mobile:hidden">
+      <div class="digi-1 desktop:w-full desktop:h-[80px]">
+        <div
+          class="digibrand w-[100%] flex justify-center items-center gap-0 bg-[#F0F0F1]"
+        ></div>
+      </div>
+      <div class="digi-2 desktop:w-full desktop:h-[80px] desktop:mb-0">
+        <div
+          class="digibrand2 w-[100%] flex justify-center items-center gap-0 bg-[#F0F0F1]"
+        ></div>
+      </div>
+    </div>
+    <script src="./node_modules/swiper/swiper-element-bundle.min.js"></script>
+
+    <script src="./public/JS/main.js" type="module"></script>
+  </body>
+</html>

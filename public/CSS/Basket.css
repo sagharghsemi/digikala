@@ -1,0 +1,30 @@
+.Basket {
+  background-color: #029a49;
+  border-radius: 100%;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  z-index: 40;
+  width: 125px;
+  height: 55px;
+  transition: all 0.3s ease;
+
+  .addBasket {
+    width: 270px;
+    height: 55px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+}
+@media (min-width: 0) {
+  .Basket {
+    bottom: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 1000px) {
+  .Basket {
+    left: 10px;
+    bottom: 10px;
+  }
+}

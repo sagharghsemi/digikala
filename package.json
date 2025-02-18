@@ -1,0 +1,22 @@
+{
+  "name": "final-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./public/tailwind/tailwind.css -o ./public/CSS/main.css --watch",
+    "server": "json-server --watch db.json --port 3004"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "serve": "^14.2.4",
+    "swiper": "^11.2.2"
+  }
+}

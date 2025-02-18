@@ -1,0 +1,744 @@
+{
+  "Menu": [
+    {
+      "id": 1,
+      "name": "شگفت انگیز ها",
+      "link": "https://www.digikala.com/incredible-offers/"
+    },
+    {
+      "id": 2,
+      "name": "سوپر مارکت",
+      "link": "https://www.digikala.com/fresh/"
+    },
+    { "id": 3, "name": "کارت هدیه", "link": "https://www.digikala.com/fresh/" },
+    {
+      "id": 4,
+      "name": "پرفروش ترین ها",
+      "link": "https://www.digikala.com/best-selling/"
+    },
+    {
+      "id": 5,
+      "name": "تخفیف ها و پیشنهاد ها",
+      "link": "https://www.digikala.com/promotion-center/"
+    },
+    {
+      "id": 6,
+      "name": "سوالی دارید؟",
+      "link": "https://www.digikala.com/faq/"
+    },
+    {
+      "id": 7,
+      "name": "در دیجیکالا بفروشید",
+      "link": "https://www.digikala.com/landings/seller-introduction/"
+    }
+  ],
+
+  "story": [
+    {
+      "id": 1,
+      "image": "http://localhost:3004/images/image-1.jpg",
+      "alt": "story-1"
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3004/images/image-2.jpg",
+      "alt": "story-2"
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3004/images/image-3.jpg",
+      "alt": "story-3"
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:3004/images/image-4.jpg",
+      "alt": "story-4"
+    },
+    {
+      "id": 5,
+      "image": "http://localhost:3004/images/image-5.jpg",
+      "alt": "story-5"
+    },
+    {
+      "id": 6,
+      "image": "http://localhost:3004/images/image-6.jpg",
+      "alt": "story-6"
+    },
+    {
+      "id": 7,
+      "image": "http://localhost:3004/images/image-7.jpg",
+      "alt": "story-7"
+    },
+    {
+      "id": 8,
+      "image": "http://localhost:3004/images/image-8.jpg",
+      "alt": "story-8"
+    },
+    {
+      "id": 9,
+      "image": "http://localhost:3004/images/image-9.jpg",
+      "alt": "story-9"
+    },
+    {
+      "id": 10,
+      "image": "http://localhost:3004/images/image-10.jpg",
+      "alt": "story-10"
+    },
+    {
+      "id": 11,
+      "image": "http://localhost:3004/images/image-11.jpg",
+      "alt": "story-11"
+    },
+    {
+      "id": 12,
+      "image": "http://localhost:3004/images/image-12.jpg",
+      "alt": "story-12"
+    },
+    {
+      "id": 13,
+      "image": "http://localhost:3004/images/image-13.jpg",
+      "alt": "story-13"
+    },
+    {
+      "id": 14,
+      "image": "http://localhost:3004/images/image-14.jpg",
+      "alt": "story-14"
+    },
+    {
+      "id": 15,
+      "image": "http://localhost:3004/images/image-15.jpg",
+      "alt": "story-15"
+    },
+    {
+      "id": 16,
+      "image": "http://localhost:3004/images/image-16.jpg",
+      "alt": "story-16"
+    },
+    {
+      "id": 17,
+      "image": "http://localhost:3004/images/image-17.jpg",
+      "alt": "story-17"
+    },
+    {
+      "id": 18,
+      "image": "http://localhost:3004/images/image-18.jpg",
+      "alt": "story-18"
+    },
+    {
+      "id": 19,
+      "image": "http://localhost:3004/images/image-19.jpg",
+      "alt": "story-19"
+    },
+    {
+      "id": 20,
+      "image": "http://localhost:3004/images/image-20.jpg",
+      "alt": "story-20"
+    }
+  ],
+  "slide": [
+    { "id": 1, "slide": "./public/images/slide-1.jpg", "alt": "slide-1" },
+    { "id": 2, "slide": "./public/images/slide-2.jpg", "alt": "slide-2" },
+    { "id": 3, "slide": "./public/images/slide-3.jpg", "alt": "slide-3" },
+    { "id": 4, "slide": "./public/images/slide-4.jpg", "alt": "slide-4" },
+    { "id": 5, "slide": "./public/images/slide-5.jpg", "alt": "slide-5" },
+    { "id": 6, "slide": "./public/images/slide-6.jpg", "alt": "slide-6" },
+    { "id": 7, "slide": "./public/images/slide-7.jpg", "alt": "slide-7" },
+    { "id": 8, "slide": "./public/images/slide-8.jpg", "alt": "slide-8" },
+    { "id": 9, "slide": "./public/images/slide-9.jpg", "alt": "slide-9" },
+    { "id": 10, "slide": "./public/images/slide-10.jpg", "alt": "slide-10" }
+  ],
+
+  "container": [
+    {
+      "id": 1,
+      "link": "https://express.mydigipay.com/login/guest?inapp=1&hideShare=1&action=416",
+      "image": "./public/images/container-1.png",
+      "title": "4 قسطه"
+    },
+    {
+      "id": 2,
+      "link": "https://www.digikala.com/gold/welcome/",
+      "image": "./public/images/container-2.png",
+      "title": "خرید طلای دیجیتال"
+    },
+    {
+      "id": 3,
+      "link": "https://tabdeal.org/magic-box?utm_source=digikala&utm_medium=circle%D9%80badge&utm_campaign=magicbox&utm_term=6bahman",
+      "image": "./public/images/container-3.png",
+      "title": "صرافی تبدیل"
+    },
+    {
+      "id": 4,
+      "link": "https://used.digikala.com/shop?utm_source=DKHP&utm_medium=BADGE&utm_campaign=SHOP-CIRCLEBADGE&utm_id=DK-CIRCLEBADGE-SHOP-070125",
+      "image": "./public/images/container-4.png",
+      "title": "تخفیف موبایل کار کرده"
+    },
+    {
+      "id": 5,
+      "link": "https://www.digikala.com/product-list/plp_237403079/",
+      "image": "./public/images/container-5.png",
+      "title": "خرید طلای فیزیکی"
+    },
+    {
+      "id": 6,
+      "link": "https://www.digikala.com/landing/gaming/",
+      "image": "./public/images/container-6.png",
+      "title": "برای گیمرها"
+    },
+    {
+      "id": 7,
+      "link": "https://www.digikala.com/cheque/",
+      "image": "./public/images/container-7.png",
+      "title": "خرید چکی"
+    },
+    {
+      "id": 8,
+      "link": "https://www.digikala.com/landing/DeyCarPlus/",
+      "image": "./public/images/container-8.png",
+      "title": "207 ببر!"
+    }
+  ],
+  "Amazing": [
+    {
+      "id": 2,
+      "slide": "./public/images/Amazing-2.webp",
+      "alt": "slider-2",
+      "text": "گوشی موبایل آلکاتل مدل 2057 FA دو سیم‌ کارت"
+    },
+    {
+      "id": 3,
+      "slide": "./public/images/Amazing-3.webp",
+      "alt": "slider-3",
+      "text": "گوشی موبایل آنر مدل X6b دو سیم کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت"
+    },
+    {
+      "id": 4,
+      "slide": "./public/images/Amazing-4.webp",
+      "alt": "slider-4",
+      "text": "گوشی موبایل ریلمی مدل Note 50 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت"
+    },
+    {
+      "id": 5,
+      "slide": "./public/images/Amazing-5.webp",
+      "alt": "slider-5",
+      "text": "هدفون بلوتوثی ریمکس مدل Cozy Pods"
+    },
+    {
+      "id": 6,
+      "slide": "./public/images/Amazing-6.webp",
+      "alt": "slider-6",
+      "text": "هندزفری بلوتوثی هارمن مدل K20"
+    },
+    {
+      "id": 7,
+      "slide": "./public/images/Amazing-7.webp",
+      "alt": "slider-7",
+      "text": "ساعت هوشمند ورنا مدل  W49 Ultra"
+    },
+    {
+      "id": 8,
+      "slide": "./public/images/Amazing-8.webp",
+      "alt": "slider-8",
+      "text": "ساعت هوشمند ایمیکی مدل IMIKI TG1"
+    },
+    {
+      "id": 9,
+      "slide": "./public/images/Amazing-9.webp",
+      "alt": "slider-9",
+      "text": "لپ تاپ 15.6 اینچی ام اس آی مدل Modern 15 B12MO-i3 1215U-8GB DDR4-512GB SSD-IPS"
+    },
+    {
+      "id": 10,
+      "slide": "./public/images/Amazing-10.webp",
+      "alt": "slider-10",
+      "text": "لپ تاپ 15.6 اینچی ام اس آی مدل Cyborg 15 A13VE-i7 13620H-16GB DDR5-1TB SSD-RTX4050-FHD"
+    },
+    {
+      "id": 11,
+      "slide": "./public/images/Amazing-11.webp",
+      "alt": "slider-11",
+      "text": "لپ تاپ 15.6 اینچی لنوو مدل IdeaPad Slim 3 15IRU8-i3 1315U-8GB LPDDR5-256GB SSD-TN"
+    },
+    {
+      "id": 12,
+      "slide": "./public/images/Amazing-12.webp",
+      "alt": "slider-12",
+      "text": "لپ تاپ 15.6 اینچی ام اس آی مدل Thin 15 B12UCX-i5 12450H-16GB DDR4-500GB SSD-RTX2050-FHD"
+    },
+    {
+      "id": 13,
+      "slide": "./public/images/Amazing-13.webp",
+      "alt": "slider-13",
+      "text": "کرم مرطوب‌کننده و آبرسان دست و صورت لافارر مدل 04، مناسب پوست‌‌های حساس، با عصاره پنیرک و آلوئه‌ورا، حاوی ویتامین‌های E و C، آلفا بیزابولول، روغن بادام و زیتون، سدیم هیالورونات، سدیم PCA، ضد التهاب و ضد حساسیت، مناسب استفاده در صبح و شب، 75 میلی‌لیتر"
+    }
+  ],
+  "best1": [
+    {
+      "id": 1,
+      "img": "./public/images/best-1-1.webp",
+      "link": "https://www.digikala.com/product-list/plp_228119646/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D9%86%D8%AA+%D8%A8%D8%A7%DA%A9%D8%B3&promo_position=home_top&promo_creative=192807&bCode=193407",
+      "alt": "قرعه کشی"
+    },
+    {
+      "id": 2,
+      "img": "./public/images/best-1-2.webp",
+      "link": "https://www.digikala.com/landing/watch-offers-bahman/?&promo_name=%D8%B3%D8%A7%D8%B9%D8%AA+&promo_position=home_top&promo_creative=193547&bCode=193547",
+      "alt": "تخفیف"
+    },
+    {
+      "id": 3,
+      "img": "./public/images/best-1-3.webp",
+      "link": "https://www.digikala.com/landing/art-piece/?&promo_name=%D9%84%D9%88%D8%A7%D8%B2%D9%85+%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%AA+%D9%88+%D8%A2%D8%B1%D8%A7%DB%8C%D8%B4%09&promo_position=home_top&promo_creative=193613&bCode=193613",
+      "alt": "ساعت"
+    },
+    {
+      "id": 4,
+      "img": "./public/images/best-1-4.webp",
+      "link": "https://www.digikala.com/search/category-food-beverage/",
+      "alt": "سوپر مارکت"
+    }
+  ],
+
+  "best2": [
+    {
+      "id": 5,
+      "image": "./public/images/best-2-3.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-636829/",
+      "alt": "best-2-3"
+    },
+    {
+      "id": 6,
+      "image": "./public/images/best-2-4.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-12646844/",
+      "alt": "best-2-4"
+    },
+    {
+      "id": 7,
+      "image": "./public/images/best-2-5.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-7178356/",
+      "alt": "best-2-5"
+    },
+    {
+      "id": 8,
+      "image": "./public/images/best-2-6.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-12652247/",
+      "alt": "best-2-6"
+    },
+    {
+      "id": 9,
+      "image": "./public/images/best-2-7.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-637015/",
+      "alt": "best-2-7"
+    },
+    {
+      "id": 10,
+      "image": "./public/images/best-2-8.webp",
+      "link": "https://www.digikala.com/fresh/product/dkp-6831983/",
+      "alt": "best-2-8"
+    },
+    {
+      "moreItems": {
+        "id": 11,
+        "text": "بیش از 100 کالا",
+        "link": "https://www.digikala.com/fresh/incredible-offers/",
+        "icon": {
+          "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' fill='currentColor' class='bi bi-arrow-left-short font-bold' viewBox='0 0 16 16'><path fill-rule='evenodd' d='M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5'/></svg>"
+        }
+      }
+    }
+  ],
+
+  "best3": [
+    {
+      "id": 10,
+      "img": "./public/images/best-3-1.webp",
+      "link": "https://www.digikala.com/product-list/plp_239103150/?sort=7&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%B2%D8%B1%DB%8C%D9%86&promo_position=home_top_second&promo_creative=193565&bCode=193565",
+      "alt": "best-3-1"
+    },
+    {
+      "id": 11,
+      "img": "./public/images/best-3-2.webp",
+      "link": "https://tabdeal.org/magic-box?utm_source=digikala&utm_medium=digitalcat_slider&utm_campaign=magicbox&utm_term=6bahman",
+      "alt": "best-3-2"
+    },
+    {
+      "id": 12,
+      "img": "./public/images/best-3-3.webp",
+      "link": "https://www.digikala.com/product-list/plp_225427007/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%B3%D8%A7%DB%8C%D9%86+%D8%A7%D8%B3%DA%A9%DB%8C%D9%86&promo_position=home_top_second&promo_creative=193528&bCode=193528",
+      "alt": "best-3-3"
+    },
+    {
+      "id": 13,
+      "img": "./public/images/best-3-4.webp",
+      "link": "https://www.digikala.com/product-list/plp_235477888/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%DA%A9%D8%A7%D8%B1%DB%8C%D8%A8%D9%88&promo_position=home_top&promo_creative=193594&bCode=193594",
+      "alt": "best-3-4"
+    }
+  ],
+  "shop": [
+    {
+      "id": 1,
+      "img": "./public/images/shop-1.png",
+      "link": "https://www.digikala.com/landing/mobile/",
+      "alt": "shop-1",
+      "text": "موبایل"
+    },
+    {
+      "id": 2,
+      "img": "./public/images/shop-2.png",
+      "link": "https://www.digikala.com/main/electronic-devices/",
+      "alt": "shop-2",
+      "text": "کالای دیجیتال"
+    },
+    {
+      "id": 3,
+      "img": "./public/images/shop-3.png",
+      "link": "https://www.digikala.com/main/home-and-kitchen/",
+      "alt": "shop-3",
+      "text": "خانه و آشپزخانه"
+    },
+    {
+      "id": 4,
+      "img": "./public/images/shop-4.png",
+      "link": "https://www.digikala.com/main/personal-appliance/",
+      "alt": "shop-4",
+      "text": "آرایشی بهداشتی"
+    },
+    {
+      "id": 5,
+      "img": "./public/images/shop-5.png",
+      "link": "https://www.digikala.com/main/vehicles-spare-parts/",
+      "alt": "shop-5",
+      "text": "خودرو و موتور سیکلت"
+    },
+    {
+      "id": 6,
+      "img": "./public/images/shop-6.png",
+      "link": "https://www.digikala.com/landing/category-home-appliance/",
+      "alt": "shop-6",
+      "text": "لوازم خانگی برقی"
+    },
+    {
+      "id": 7,
+      "img": "./public/images/shop-7.png",
+      "link": "https://www.digikala.com/main/vehicles/",
+      "alt": "shop-7",
+      "text": "ابزار آلات و تجهیزات"
+    },
+    {
+      "id": 8,
+      "img": "./public/images/shop-8.png",
+      "link": "https://www.digikala.com/landing/apparel/",
+      "alt": "shop-8",
+      "text": "مد و پوشاک"
+    },
+    {
+      "id": 9,
+      "img": "./public/images/shop-9.png",
+      "link": "https://www.digikala.com/landing/gold-jwelery-category-page/",
+      "alt": "shop-9",
+      "text": "طلا و نقره"
+    },
+    {
+      "id": 10,
+      "img": "./public/images/shop-10.png",
+      "link": "https://www.digikala.com/landing/medical-health-equipment/",
+      "alt": "shop-10",
+      "text": "تجهیزات پزشکی و ساعت"
+    },
+    {
+      "id": 11,
+      "img": "./public/images/shop-11.png",
+      "link": "https://www.digikala.com/main/book-and-media/",
+      "alt": "shop-11",
+      "text": "کتاب لوازم تحریر و هنر"
+    },
+    {
+      "id": 12,
+      "img": "./public/images/shop-12.png",
+      "link": "https://www.digikala.com/main/sport-entertainment/",
+      "alt": "shop-12",
+      "text": "ورزش و سفر"
+    },
+    {
+      "id": 13,
+      "img": "./public/images/shop-13.png",
+      "link": "https://www.digikala.com/main/dk-ds-gift-card/",
+      "alt": "shop-13",
+      "text": "کارت هدیه و گیفت کارت"
+    },
+    {
+      "id": 14,
+      "img": "./public/images/shop-14.png",
+      "link": "https://www.digikala.com/main/food-beverage/",
+      "alt": "shop-14",
+      "text": "کالای خوراکی و اساسی"
+    },
+    {
+      "id": 15,
+      "img": "./public/images/shop-15.png",
+      "link": "https://www.digikala.com/main/mother-and-child/",
+      "alt": "shop-15",
+      "text": "اسباب بازی کودک و نوزاد"
+    },
+    {
+      "id": 16,
+      "img": "./public/images/shop-16.png",
+      "link": "https://www.digikala.com/main/rural-products/",
+      "alt": "shop-16",
+      "text": "محصولات بومی و محلی"
+    }
+  ],
+  "picture": [
+    {
+      "id": 1,
+      "img": "./public/images/picture-1.webp",
+      "link": "https://www.digikala.com/landing/Golha/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%DA%AF%D9%84%D9%87%D8%A7&promo_position=home_middle&promo_creative=193598&bCode=193598",
+      "alt": "picture-1"
+    },
+    {
+      "id": 2,
+      "img": "./public/images/picture-2.webp",
+      "link": "https://www.digikala.com/product-list/plp_233313744/?promo_creative=193409&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%AA%DA%A9%D9%86%D9%88&promo_position=home_middle&sort=7&bCode=193409",
+      "alt": "picture-2"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "slide": "./public/images/brands/pril.png",
+      "alt": "brands-1",
+      "link": "https://www.digikala.com/brand-landing/pril/"
+    },
+    {
+      "id": 2,
+      "slide": "./public/images/brands/persil.png",
+      "alt": "brands-2",
+      "link": "https://www.digikala.com/brand-landing/persil/"
+    },
+    {
+      "id": 3,
+      "slide": "./public/images/brands/kingstar.png",
+      "alt": "brands-3",
+      "link": "https://www.digikala.com/brand/king-star/"
+    },
+    {
+      "id": 4,
+      "slide": "./public/images/brands/adata.png",
+      "alt": "brands-4",
+      "link": "https://www.digikala.com/brand/adata/"
+    },
+    {
+      "id": 5,
+      "slide": "./public/images/brands/huawei.png",
+      "alt": "brands-5",
+      "link": "https://www.digikala.com/brand-landing/huawei/"
+    },
+    {
+      "id": 6,
+      "slide": "./public/images/brands/pegah.png",
+      "alt": "brands-6",
+      "link": "https://www.digikala.com/brand/pegah/"
+    },
+    {
+      "id": 7,
+      "slide": "./public/images/brands/chini-zarin.png",
+      "alt": "brands-7",
+      "link": "https://www.digikala.com/brand-landing/zarin-iran/"
+    },
+    {
+      "id": 8,
+      "slide": "./public/images/brands/panter.jpg",
+      "alt": "brands-8",
+      "link": "https://www.digikala.com/brand-landing/panter/"
+    },
+    {
+      "id": 9,
+      "slide": "./public/images/brands/x.vision.jpg",
+      "alt": "brands-9",
+      "link": "https://www.digikala.com/brand-landing/x-vision/"
+    },
+    {
+      "id": 10,
+      "slide": "./public/images/brands/vital.jpg",
+      "alt": "brands-10",
+      "link": "https://www.digikala.com/brand-landing/eurhi-vital/"
+    },
+    {
+      "id": 11,
+      "slide": "./public/images/brands/mi.png",
+      "alt": "brands-11",
+      "link": "https://www.digikala.com/brand/xiaomi/"
+    },
+    {
+      "id": 12,
+      "slide": "./public/images/brands/Active.jpg",
+      "alt": "slider-12",
+      "link": "https://www.digikala.com/brand/active/"
+    },
+    {
+      "id": 13,
+      "slide": "./public/images/brands/SAMSUNG.jpg",
+      "alt": "slider-13",
+      "link": "https://www.digikala.com/brand-landing/samsung/"
+    },
+    {
+      "id": 14,
+      "slide": "./public/images/brands/My.png",
+      "alt": "slider-14",
+      "link": "https://www.digikala.com/brand/my/"
+    },
+    {
+      "id": 15,
+      "slide": "./public/images/brands/Lafarrerr.png",
+      "alt": "slider-15",
+      "link": "https://www.digikala.com/brand/lafarrerr/"
+    },
+    {
+      "id": 16,
+      "slide": "./public/images/brands/kale.png",
+      "alt": "slider-16",
+      "link": "https://www.digikala.com/brand/kalleh/"
+    }
+  ],
+  "picture2": [
+    {
+      "id": 1,
+      "img": "./public/images/picture-3.webp",
+      "link": "https://www.digikala.com/product-list/plp_239101852/?sort=7&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%DB%8C%D9%88%D9%86%DB%8C%DA%A9&promo_position=home_middle_third&promo_creative=193557&bCode=193557",
+      "alt": "picture-3"
+    },
+    {
+      "id": 2,
+      "img": "./public/images/picture-4.webp",
+      "link": "https://www.digikala.com/product-list/plp_244622273/?&promo_name=%D9%BE%D8%A7%D8%B1%D8%AA%D9%86%D8%B1%D8%B4%DB%8C%D9%BE-%D8%A7%DA%A9%D8%AA%DB%8C%D9%88&promo_position=home_middle_third&promo_creative=193561&bCode=193561",
+      "alt": "picture-4"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "1",
+      "image": "./public/images/products/product-1.svg",
+      "alt": "تحویل اکسپرس",
+      "title": "امکان تحویل اکسپرس",
+      "link": "https://www.digikala.com/faq/question/79/"
+    },
+    {
+      "id": "2",
+      "image": "./public/images/products/product-2.svg",
+      "alt": "پرداخت در محل",
+      "title": "امکان پرداخت در محل",
+      "link": "https://www.digikala.com/faq/question/81/"
+    },
+    {
+      "id": "3",
+      "image": "./public/images/products/product-3.svg",
+      "alt": "پشتیبانی ۲۴ ساعته",
+      "title": "۷ روز هفته، ۲۴ ساعته",
+      "link": "https://www.digikala.com/page/contact-us/"
+    },
+    {
+      "id": "4",
+      "image": "./public/images/products/product-4.svg",
+      "alt": "ضمانت بازگشت کالا",
+      "title": "ضمانت بازگشت کالا",
+      "link": "https://www.digikala.com/faq/question/83/"
+    },
+    {
+      "id": "5",
+      "image": "./public/images/products/product-5.svg",
+      "alt": "ضمانت اصل بودن کالا",
+      "title": "ضمانت اصل بودن کالا",
+      "link": "https://www.digikala.com/faq/question/82/"
+    }
+  ],
+
+  "digi-1": [
+    {
+      "id": "1",
+      "image": "./public/images/digi/digimag.svg",
+      "alt": "digimag",
+      "link": "https://www.digikala.com/mag/"
+    },
+    {
+      "id": "2",
+      "image": "./public/images/digi/digipay.svg",
+      "alt": "digipay",
+      "link": "https://www.mydigipay.com/"
+    },
+    {
+      "id": "3",
+      "image": "./public/images/digi/digistyle.svg",
+      "alt": "digistyle",
+      "link": "https://www.digistyle.com/"
+    },
+    {
+      "id": "4",
+      "image": "./public/images/digi/digiplus.svg",
+      "alt": "digiplus",
+      "link": "https://www.digikala.com/plus/landing/"
+    },
+    {
+      "id": "5",
+      "image": "./public/images/digi/digiclub.svg",
+      "alt": "digiclub",
+      "link": "https://www.digikala.com/digiclub/"
+    },
+    {
+      "id": "6",
+      "image": "./public/images/digi/jet.svg",
+      "alt": "jet",
+      "link": "https://www.digikalajet.com/"
+    },
+    {
+      "id": "7",
+      "image": "./public/images/digi/digiMehr.svg",
+      "alt": "digiMehr",
+      "link": "https://mehr.digikala.com/"
+    },
+    {
+      "id": "8",
+      "image": "./public/images/digi/diginext.svg",
+      "alt": "diginext",
+      "link": "https://diginext.ir/"
+    }
+  ],
+  "digi-2": [
+    {
+      "id": "9",
+      "image": "./public/images/digi/digiexpress.svg",
+      "alt": "digiexpress",
+      "link": "https://digiexpress.ir/"
+    },
+    {
+      "id": "10",
+      "image": "./public/images/digi/ganjeh.svg",
+      "alt": "ganjeh",
+      "link": "https://ganje.net/?utm_source=Digikala_web&utm_medium=Footer"
+    },
+    {
+      "id": "11",
+      "image": "./public/images/digi/digify.svg",
+      "alt": "digify",
+      "link": "https://digify.shop/"
+    },
+    {
+      "id": "12",
+      "image": "./public/images/digi/smartech.svg",
+      "alt": "smartech",
+      "link": "https://smartech.ir/"
+    },
+    {
+      "id": "13",
+      "image": "./public/images/digi/digikala-business.svg",
+      "alt": "digikala-business",
+      "link": "https://www.digikalabusiness.com/"
+    },
+    {
+      "id": "14",
+      "image": "./public/images/digi/digikala-service.svg",
+      "alt": "digikala-service",
+      "link": "https://www.digikala-service.com/"
+    }
+  ]
+}
